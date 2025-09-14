@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Birthday Surprise 🎉</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <audio autoplay loop>
+    <source src="audio/birthday-song.mp3" type="audio/mpeg">
+  </audio>
+  <div id="screen1" class="center">
+    <h1>🎈 Welcome 🎈</h1>
+    <button onclick="showSurprise()">View Surprise 🎉</button>
+  </div>
+  <div id="screen2" class="center hidden">
+    <h1>🎉 HAPPY BIRTHDAY MAHILA MITTRA 🎉</h1>
+    <h2>Now cut the cake 🎂 and blow the candles 🕯️</h2>
+    <img src="images/cake.png" class="cake" onclick="cutCake()">
+    <p id="cakeMessage"></p>
+  </div>
+  <div id="screen3" class="center hidden">
+    <h1>💖 Best Wishes from Vipul 💖</h1>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
